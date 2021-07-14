@@ -123,9 +123,29 @@ footer{
     font-size: 18px;
 }
 
+/* about us */
+
+.about-us{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+    padding: 10px;
+   padding-bottom: 30px;
+   box-shadow: 0 0 20px black;
+}
+
+.about-us h1{
+    font-size: 48px;
+    margin: 0;
+    margin-top: 20px;
+    
+}
+
 /* Responsive */
 
 /* mobile */ 
+
 
 @media only screen and (max-width:688px) {
 
@@ -144,6 +164,10 @@ header{
 .header-text {
     margin: 0;
     padding-left: 16px;
+}
+
+.header-text h1{
+    font-size: 36px;
 }
 
 .header-image img{
@@ -177,9 +201,9 @@ footer{
     width: 300px;
 }
 
-/* footer, main, header{
-    display: none;
-} */
+ 
+
 }
 
- 
+
+
